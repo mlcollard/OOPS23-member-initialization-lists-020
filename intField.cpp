@@ -14,9 +14,9 @@ private:
 };
 
 // constructor
-A::A(int n) {
-    n = n;
-}
+A::A(int n)
+    : n(n)
+{}
 
 int main() {
 
